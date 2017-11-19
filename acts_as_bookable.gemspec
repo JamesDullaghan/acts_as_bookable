@@ -27,8 +27,8 @@ Gem::Specification.new do |gem|
   end
 
   gem.add_dependency 'ice_cube_chosko', '~> 0.1.0'
-  gem.add_runtime_dependency 'activerecord', ['>= 3.2', '< 5.1']
-  
+  gem.add_runtime_dependency 'activerecord', ['>= 3.2', '<= 5.2']
+
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rails'
   gem.add_development_dependency 'sqlite3', '~> 1.3'
@@ -41,4 +41,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'barrier', '~> 1.0'
   gem.add_development_dependency 'database_cleaner', '~>1.5'
   gem.add_development_dependency 'awesome_print', '~>1.6'
+  gem.add_development_dependency 'pry'
 end
